@@ -1,0 +1,6 @@
+condition,accuracy,balanced_accuracy,macro_f1,real_recall,roc_auc,true_negatives,false_positives,false_negatives,true_positives
+clean,0.9575,0.9575,0.957487,0.975,0.994625,195,5,12,188
+jpeg_q70,0.9450,0.9450,0.944988,0.960,0.990850,192,8,14,186
+jpeg_q30,0.9600,0.9600,0.960000,0.960,0.995050,192,8,8,192
+resize_0.5x,0.9475,0.9475,0.947497,0.940,0.993250,188,12,9,191
+blur_sigma1.0,0.9475,0.9475,0.947492,0.960,0.994300,192,8,13,187
