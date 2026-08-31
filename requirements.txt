@@ -1,0 +1,6 @@
+torch
+transformers
+scikit-learn==1.6.1
+numpy
+pillow
+joblib
