@@ -67,6 +67,8 @@ Place these files from the completed DINOv2 Colab run in `artifacts/`:
 
 The program validates the configuration and feature dimensions. It deliberately
 fails if artifacts are absent instead of using unvalidated defaults.
+The probes were trained with scikit-learn 1.6.1, which is pinned in
+`requirements.txt` to keep model deserialization and predictions reproducible.
 
 ## Directory-to-JSON inference
 
