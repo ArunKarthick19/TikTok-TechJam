@@ -135,7 +135,3 @@ The experiment notebooks and their Colab links are documented under
   transformations, probability calibration, and image-level explainability.
 
 ## Team contributions
-
-- **Jiawei:** DINOv2-Base feature search, FFT probability fusion, robust
-  evaluation, and standalone inference packaging.
-- **Arun:** CLIP baseline, degradation experiments, and initial project setup.

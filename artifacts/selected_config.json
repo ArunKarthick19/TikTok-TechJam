@@ -1,0 +1,23 @@
+{
+  "seed": 2026,
+  "model_name": "facebook/dinov2-base",
+  "development_rows": 1200,
+  "holdout_rows": 400,
+  "conditions": [
+    "clean",
+    "jpeg_q70",
+    "jpeg_q30",
+    "resize_0.5x",
+    "blur_sigma1.0"
+  ],
+  "feature_variant": "last4_cls_mean",
+  "spatial_C": 0.01,
+  "spatial_class_weight": "balanced",
+  "use_fft_fusion": true,
+  "fft_C": 10.0,
+  "fft_class_weight": "balanced",
+  "fusion_alpha": 0.5,
+  "threshold": 0.5299999999999999,
+  "spatial_mean_cv_auc": 0.928052777777778,
+  "fusion_mean_cv_auc": 0.9878177777777777
+}
