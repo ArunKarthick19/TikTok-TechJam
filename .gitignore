@@ -8,3 +8,8 @@ venv/
 .DS_Store
 predictions.json
 *.tmp
+
+# External smoke-test images are kept locally. Review every asset's original
+# licence/attribution before redistributing them in the public repository.
+sample_images/external_real/
+sample_images/external_aigc/

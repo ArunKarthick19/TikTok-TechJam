@@ -1,0 +1,42 @@
+[
+  {
+    "image_path": "sample_images/external_real/real_01_flickr_6458524847.png",
+    "pred": 0.7158254755399127
+  },
+  {
+    "image_path": "sample_images/external_real/real_02_flickr_8399166846.png",
+    "pred": 0.35438259050553206
+  },
+  {
+    "image_path": "sample_images/external_real/real_03_unsplash_alex_iby.png",
+    "pred": 0.32110811934473876
+  },
+  {
+    "image_path": "sample_images/external_real/real_04_bench.png",
+    "pred": 0.4693788443091592
+  },
+  {
+    "image_path": "sample_images/external_real/real_05_bertrand_gabioud.png",
+    "pred": 0.3387823882662254
+  },
+  {
+    "image_path": "sample_images/external_real/real_06_billow926.png",
+    "pred": 0.38206715090940824
+  },
+  {
+    "image_path": "sample_images/external_real/real_07_overture_creations.png",
+    "pred": 0.2579273306731886
+  },
+  {
+    "image_path": "sample_images/external_real/real_08_unsplash_photo.png",
+    "pred": 0.3697238242962596
+  },
+  {
+    "image_path": "sample_images/external_real/real_09_superresolution_input.jpg",
+    "pred": 0.5145727083561399
+  },
+  {
+    "image_path": "sample_images/external_real/real_10_upscaling_input.png",
+    "pred": 0.6387909514700247
+  }
+]

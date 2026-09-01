@@ -1,3 +1,5 @@
+> **Experimental branch:** This branch contains our DINOv2-Base + FFT comparison model. The final submitted CLIP + FFT detector is available on the `main` branch.
+
 # Robust AI-Generated Image Detection
 
 This project detects AI-generated images after common real-world transformations

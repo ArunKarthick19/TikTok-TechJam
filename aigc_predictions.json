@@ -1,0 +1,42 @@
+[
+  {
+    "image_path": "sample_images/external_aigc/aigc_01_chatgpt_foxgirl.png",
+    "pred": 0.5612898600706838
+  },
+  {
+    "image_path": "sample_images/external_aigc/aigc_02_chatgpt_alone.jpg",
+    "pred": 0.5354540166390085
+  },
+  {
+    "image_path": "sample_images/external_aigc/aigc_03_dalle_golden_lady.jpg",
+    "pred": 0.39499396023837835
+  },
+  {
+    "image_path": "sample_images/external_aigc/aigc_04_dalle_hawk.png",
+    "pred": 0.9839965220387974
+  },
+  {
+    "image_path": "sample_images/external_aigc/aigc_05_invoke_anime.png",
+    "pred": 0.5246610198049463
+  },
+  {
+    "image_path": "sample_images/external_aigc/aigc_06_invoke_architecture.png",
+    "pred": 0.18934611678715052
+  },
+  {
+    "image_path": "sample_images/external_aigc/aigc_07_invoke_character.png",
+    "pred": 0.507773824547964
+  },
+  {
+    "image_path": "sample_images/external_aigc/aigc_08_invoke_environment.png",
+    "pred": 0.30359756540380284
+  },
+  {
+    "image_path": "sample_images/external_aigc/aigc_09_invoke_landscape.png",
+    "pred": 0.2216630880676437
+  },
+  {
+    "image_path": "sample_images/external_aigc/aigc_10_invoke_product.png",
+    "pred": 0.6036442052496114
+  }
+]
