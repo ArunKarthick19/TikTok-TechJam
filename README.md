@@ -1,6 +1,6 @@
 # Robust Detection of AI-Generated Images Under Real-World Transformations
 
-TikTok TechJam 2026 — Track 5 submission.
+TikTok TechJam 2026 — Track 5 submission. - https://colab.research.google.com/drive/1XPmWzmo0NxsS_JS42e9E3Y0bXB-zs1Me?usp=sharing
 
 ## Project Overview
 
