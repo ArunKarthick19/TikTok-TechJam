@@ -56,7 +56,7 @@ def main():
     parser.add_argument("--output", default="predictions.json")
     parser.add_argument("--spatial_model", default="spatial_model.joblib")
     parser.add_argument("--frequency_model", default="frequency_model.joblib")
-    parser.add_argument("--fusion_alpha", type=float, default=0.7)
+    parser.add_argument("--fusion_alpha", type=float, default=0.55)
     parser.add_argument("--batch_size", type=int, default=32)
     args = parser.parse_args()
 
