@@ -176,7 +176,11 @@ of the required deliverable and is not needed to reproduce our results.
 6. Evaluate on the full 12-condition transform suite (see
    `robustness_table.md`)
 
-Full experiment notebooks are included in `/notebooks` for transparency.
+The full experiment notebook (CLIP + FFT gated fusion — feature extraction,
+cross-validation, fusion tuning, and the full robustness sweep) is available
+here: **[add your Colab share link]**. We ran this in Colab rather than
+committing raw `.ipynb` files, since it depends on a GPU runtime; the link
+is set to allow anyone with it to open and run the notebook.
 
 ## Limitations and Future Work
 
@@ -201,8 +205,7 @@ Full experiment notebooks are included in `/notebooks` for transparency.
   diffusion-reconstruction-error (DIRE-style) detection branch, which
   research suggests could add a further complementary signal; this remains
   a promising direction for future work.
-- **Given more time**, we would: train on the full SID_Set, incorporate
-  WildFake for additional generator diversity, and build proper
+- **Given more time**, we would: build proper
   domain-adaptive threshold calibration.
 
 ## Team Contributions
