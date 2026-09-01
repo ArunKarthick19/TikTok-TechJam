@@ -136,6 +136,30 @@ python infer.py --input_dir /path/to/images --output predictions.json --fusion_a
 (~350MB) and takes roughly 2 minutes; subsequent runs use the cached
 weights and are faster.
 
+### Viewing results with human-readable labels
+
+`infer.py` outputs raw confidence scores as required by the problem
+statement. For convenience, `view_results.py` reads the same
+`predictions.json` and prints a human-readable label alongside each score:
+
+```bash
+python view_results.py
+```
+
+```python
+import json
+
+with open("predictions.json") as f:
+    results = json.load(f)
+
+for r in results:
+    label = "AI-generated" if r["pred"] >= 0.5 else "Real"
+    print(f"{r['image_path']}: {r['pred']:.3f} ({label})")
+```
+
+This is a convenience script for demos/manual review only — it is not part
+of the required deliverable and is not needed to reproduce our results.
+
 ## Steps to Reproduce Our Results
 
 1. Load SID_Set via `datasets.load_dataset("saberzl/SID_Set", split="train", streaming=True)`
@@ -183,11 +207,10 @@ Full experiment notebooks are included in `/notebooks` for transparency.
 
 ## Team Contributions
 
-*(Fill in with your actual team member names and specific contributions,
-e.g.:)*
-- **[Name 1]:** CLIP + FFT baseline architecture, degradation-consistent
-  training, robustness evaluation pipeline
-- **[Name 2]:** DINOv2 comparison architecture, gated fusion technique,
+- **Arun Karthick:** CLIP + FFT baseline architecture, degradation-consistent
+  training, robustness evaluation pipeline, inference script, error analysis,
+  out-of-distribution testing, documentation
+- **Wang Jiawei:** DINOv2 comparison architecture, gated fusion technique,
   cross-validation hyperparameter selection
-- **[Name 3]:** Inference script, error analysis, out-of-distribution
-  testing, documentation
+- **Derek Qua:** Early backbone exploration (SigLIP), initial project
+  setup, ongoing support across the pipeline
